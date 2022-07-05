@@ -187,3 +187,61 @@ input[type=submit] {
 }
 
 /* activity end */
+
+/* update start */
+.update {
+    height: 60vh;
+}
+
+.subscribe {
+    width: 60%;
+    height: 50%;
+    margin-top: 50px;
+    margin: 0 auto;
+    background-color: rgb(255, 247, 211);
+    border-radius: 10px;
+}
+
+.sub-form {
+    height: 52px;
+    width: 30%;
+    background-color: rgb(215, 215, 215);
+    border: none;
+    outline: none;
+    position: relative;
+    border-radius: 10px 0px 0px 10px;
+    position: relative;
+    padding-left: 10px;
+    margin-left: -180px;
+}
+
+#s-btn {
+    position: absolute;
+    left: 53%;
+    border-radius: 0px 10px 10px 0px;
+
+}
+
+#form {
+    padding-top: 10%;
+}
+
+/* update end */
+
+/* foooter */
+.footer {
+    background-color: rgb(7, 7, 38);
+    color: #fff;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    color: orange;
+    margin-bottom: 30px;
+}
