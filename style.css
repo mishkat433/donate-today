@@ -6,7 +6,7 @@
     font-size: 20px;
 }
 
-/* common css start */
+/* common style start */
 .m-t {
     margin-top: 100px;
 }
@@ -14,9 +14,23 @@
 .h-font {
     font-size: 45px;
     margin-bottom: 20px;
+    text-transform: capitalize;
 }
 
-/* common css end */
+.btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(197, 97, 4);
+    padding: 15px 30px;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+.btn:hover {
+    box-shadow: 0px 0px 20px orange;
+}
+
+/* common style end */
 
 /* Header start */
 .header {
@@ -48,30 +62,16 @@
     margin-bottom: 30px;
 }
 
-.btn {
-    text-decoration: none;
-    color: #fff;
-    background-color: rgb(197, 97, 4);
-    padding: 15px 30px;
-    border-radius: 10px;
-    transition: 0.4s;
-}
-
-.btn:hover {
-    box-shadow: 0px 0px 20px orange;
-}
-
 /* header end */
 
 /* donate start */
 .donate {
-    height: 100vh;
+    height: 90vh;
 }
 
 .donate-mid {
     text-align: center;
 }
-
 
 .donate-option {
     display: flex;
@@ -80,7 +80,7 @@
     margin: 60px auto;
 }
 
-.donate-option h1 {
+.donate-option .tk {
     padding: 60px 30px;
     background-color: rgb(254, 247, 241);
     font-size: 1.8rem;
@@ -125,3 +125,65 @@ input[type=submit] {
 }
 
 /* donate end */
+
+/* donate-plan start */
+
+.donate-plan {
+    height: 100vh;
+}
+
+.card {
+    width: 28%;
+    padding: 30px 20px;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+.card img {
+    height: 80px;
+    width: 80px;
+}
+
+.card-heading {
+    font-size: 25px;
+    text-transform: capitalize;
+    padding: 20px 0px;
+}
+
+/* donate-plan end */
+
+/* activity start */
+#activity {
+    height: 100vh;
+}
+
+/* #more {
+    margin-top: 150px;
+} */
+
+.side-1 {
+    width: 50%;
+    margin-right: 50px;
+    text-align: justify;
+}
+
+#more {
+    position: absolute;
+    margin-top: 50px;
+}
+
+.side-1 h1 {
+    padding-top: 40px;
+}
+
+.side-2 {
+    width: 50%;
+}
+
+.side-2 img {
+    width: 100%;
+    height: 80%;
+    border-radius: 10px;
+}
+
+/* activity end */
