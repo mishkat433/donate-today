@@ -157,10 +157,6 @@ input[type=submit] {
     height: 100vh;
 }
 
-/* #more {
-    margin-top: 150px;
-} */
-
 .side-1 {
     width: 50%;
     margin-right: 50px;
@@ -187,6 +183,17 @@ input[type=submit] {
 }
 
 /* activity end */
+
+/* donate-us start */
+#donate-us {
+    margin-left: 50px;
+}
+
+#botm {
+    height: 80vh;
+}
+
+/* donate-us end */
 
 /* update start */
 .update {
